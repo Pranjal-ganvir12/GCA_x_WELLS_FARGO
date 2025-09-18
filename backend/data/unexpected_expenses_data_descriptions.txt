@@ -1,0 +1,28 @@
+label						description
+	
+Year						calendar year of SHED survey
+	
+All adults					percent of all adults, ages 18 and above,  who would cover a $400 emergency expense completely using cash or its equivalent 
+
+
+18-29						percent of 18-29 year old adults who would cover a $400 emergency expense completely using cash or its equivalent
+30-44						percent of 30-44 year old adults who would cover a $400 emergency expense completely using cash or its equivalent 
+45-59						percent of 45-59 year old adults who would cover a $400 emergency expense completely using cash or its equivalent 
+60+						percent of adults age 60 or older who would cover a $400 emergency expense completely using cash or its equivalent 
+
+Less than a high school degree			percent of adults with less than a high school degree who would cover a $400 emergency expense completely using cash or its equivalent 
+High school degree or GED			percent of adults with a high school degree or GED who would cover a $400 emergency expense completely using cash or its equivalent 
+Some college / technical or associate degree	percent of adults with some college, or a technical or associate degree who would cover a $400 emergency expense completely using cash or its equivalent 
+Bachelor's degree or more			percent of adults with a bachelor's degree or more who would cover a $400 emergency expense completely using cash or its equivalent 
+
+Asian						percent of Asian, non-Hispanic adults who would cover a $400 emergency expense completely using cash or its equivalent 
+Black						percent of Black, non-Hispanic adults who would cover a $400 emergency expense completely using cash or its equivalent 
+Hispanic					percent of Hispanic adults who would cover a $400 emergency expense completely using cash or its equivalent 
+White						percent of White, non-Hispanic adults who would cover a $400 emergency expense completely using cash or its equivalent 
+	
+Non-metro					percent of adults living in nonmetropolitan areas who would cover a $400 emergency expense completely using cash or its equivalent 
+Metro						percent of adults living in metropolitan areas who would cover a $400 emergency expense completely using cash or its equivalent
+
+
+Parents living with own children under age 18	percent of adults with a child under age 18 who who would cover a $400 emergency expense completely using cash or its equivalent
+All other adults				percent of adults who do not have a child under age 18 who who would cover a $400 emergency expense completely using cash or its equivalent 
