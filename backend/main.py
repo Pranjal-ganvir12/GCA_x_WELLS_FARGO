@@ -1,13 +1,30 @@
 from fastapi import FastAPI, Query
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from datetime import date, timedelta
 import pandas as pd
 import random
 
+# ----------------------
+# App setup
+# ----------------------
 app = FastAPI(title="Wells Fargo Emergency Cushion API with Data")
 
+# ✅ Enable CORS so frontend (React @5173) can call backend
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://127.0.0.1:5173", "http://localhost:5173"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
-df = pd.read_csv("/Users/pranjalganvir/Documents/GitHub/GCA_x_WELLS_FARGO/backend/data/unexpected_expenses.csv")
+# ----------------------
+# Load dataset
+# ----------------------
+df = pd.read_csv(
+    "/Users/pranjalganvir/Documents/GitHub/GCA_x_WELLS_FARGO/backend/data/unexpected_expenses.csv"
+)
 latest = df.iloc[-1]  # most recent year
 
 # ----------------------
